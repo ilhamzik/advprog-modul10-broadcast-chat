@@ -12,3 +12,8 @@ Saya menjalankan server dengan 'cargo run --bin server' dan menjalankan 3 client
 Untuk mengubah-ubah websocket, pada client dapat diubah pada bagian ClientBuilder. Sedangkan untuk websocket server, dapat diubah pada bagian Listener.
 
 Perlu dicatat bahwa client dan server harus terhubung dengan port yang sama agar saling bertemu dan tidak error.
+
+## 2.3
+*ss menyusul*
+
+Pada screenshot diatas, kita memiliki informasi dari hostnamenya(pada konteks ini nama deviceku LAPTOPN91LOEN). Ini didapatkan dengan dependency gethostname yang baru saya tambahkan. Dapat dilihat perubahannya pada commit saya kali ini. Dengan itu akan terpampang pengirim message.

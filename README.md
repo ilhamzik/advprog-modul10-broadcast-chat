@@ -6,7 +6,8 @@ Saya menjalankan server dengan 'cargo run --bin server' dan menjalankan 3 client
 
 
 ## 2.2
-*ss menyusul*
+![image](https://github.com/ilhamzik/advprog-modul10-broadcast-chat/assets/124953758/31a07889-ef65-4003-959b-8e2c14b89f48)
+*still runs properly*
 
 Untuk mengubah-ubah websocket, pada client dapat diubah pada bagian ClientBuilder. Sedangkan untuk websocket server, dapat diubah pada bagian Listener.
 

@@ -3,3 +3,11 @@
 
 
 Saya menjalankan server dengan 'cargo run --bin server' dan menjalankan 3 client di 3 terminal berbeda. Semua client terhubung pada satu server, jadi tiap salah satu dari client mengirim pesan, semua client akan menerima pesan tersebut(tentu saja tercatat pada server).
+
+
+## 2.2
+*ss menyusul*
+
+Untuk mengubah-ubah websocket, pada client dapat diubah pada bagian ClientBuilder. Sedangkan untuk websocket server, dapat diubah pada bagian Listener.
+
+Perlu dicatat bahwa client dan server harus terhubung dengan port yang sama agar saling bertemu dan tidak error.

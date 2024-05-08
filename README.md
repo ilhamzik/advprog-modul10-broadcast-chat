@@ -14,6 +14,6 @@ Untuk mengubah-ubah websocket, pada client dapat diubah pada bagian ClientBuilde
 Perlu dicatat bahwa client dan server harus terhubung dengan port yang sama agar saling bertemu dan tidak error.
 
 ## 2.3
-*ss menyusul*
+![image](https://github.com/ilhamzik/advprog-modul10-broadcast-chat/assets/124953758/b372b4b6-8ec5-4db6-bf2b-2f45fdc6c9b7)
 
 Pada screenshot diatas, kita memiliki informasi dari hostnamenya(pada konteks ini nama deviceku LAPTOPN91LOEN). Ini didapatkan dengan dependency gethostname yang baru saya tambahkan. Dapat dilihat perubahannya pada commit saya kali ini. Dengan itu akan terpampang pengirim message.
